@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello Mybatis</title>
+</head>
+<body>
+	<h1>Hello Mybatis</h1>
+	<%--
+		* 프레임워크 (framework)
+		  - 개발자가 보다 편리한 환경에서 개발할 수 있도록 제공하는 틀, 뼈대
+		  - 소프트웨어 개발 시 공통적으로 사용되는 라이브러리, 개발도구, 인터페이스 등을 의미
+		  
+		* 프레임워크 필요성
+		  - 규모가 큰 프로젝트에서 작업 시 많은 개발자가 필요
+		    => 이러한 개발자들이 "통일성"있고, "빠르고", "안정적"으로 개발하기 위해 프레임워크 필요함
+		    => 프레임워크 통하여 생산성을 높일 수 있음
+		    
+		* 프레임워크 특징
+		  - 개발자들이 따라야하는 가이드라인 제공
+		    => 자유롭게 설계 또는 구현하지 않고 
+	--%>
+</body>
+</html>

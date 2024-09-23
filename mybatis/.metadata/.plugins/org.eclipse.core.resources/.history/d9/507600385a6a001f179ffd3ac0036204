@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello Mybatis</title>
+</head>
+<body>
+	<h1>Hello Mybatis</h1>
+	<%--
+		* 프레임워크 (framework)
+		  - 개발자가 보다 편리한 환경에서 개발할 수 있도록 제공하는 틀, 뼈대
+	--%>
+</body>
+</html>

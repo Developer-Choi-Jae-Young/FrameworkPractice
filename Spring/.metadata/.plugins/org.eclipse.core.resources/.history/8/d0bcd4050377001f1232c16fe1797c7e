@@ -1,0 +1,11 @@
+package com.kh.spring.common.interceptor;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+
+public class LoginInterceptor implements HandlerInterceptor{
+	
+	/*
+	 * Interceptor
+	 * - 요청 url에 해당하는 controller가 실행되기 전에 또는 후에 처리할 내용을 작성
+	 */
+}

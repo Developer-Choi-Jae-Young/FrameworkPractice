@@ -1,0 +1,11 @@
+package com.kh.mybatis.member.service;
+
+import com.kh.mybatis.member.model.vo.Member;
+
+public class MemberService {
+	public Member loginMember(String userId, String userPwd) {
+		Member member = null;
+		
+		return member
+	}
+}

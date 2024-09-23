@@ -1,0 +1,13 @@
+package com.kh.mybatis.member.model.vo;
+
+public class Member {
+	private int ;
+	private String ;
+	private String ;
+	private String ;
+	private String ;
+	private String ;
+	private String ;
+	private String ;
+	private String ;
+}

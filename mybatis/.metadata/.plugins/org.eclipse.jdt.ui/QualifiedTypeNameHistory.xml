@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.annotation.Resource"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOError"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.template.mybatisTemplate"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.member.model.vo.Member"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.jdbc.SQL"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.member.model.vo.UpdatePasswordDto"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.member.service.MemberService"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.member.service.MemberServiceImpl"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.member.controller.DeleteMemberController"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.template.MybatisTemplate"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.member.model.dao.MemberDao"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.member.model.vo.DeleteMemberDto"/>
+</qualifiedTypeNameHistroy>

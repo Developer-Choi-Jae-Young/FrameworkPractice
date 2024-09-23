@@ -1,0 +1,6 @@
+package com.kh.mybatis.member.model.vo;
+
+public class UpdatePassword {
+	private String Pwd;
+	private String newePwd;
+}

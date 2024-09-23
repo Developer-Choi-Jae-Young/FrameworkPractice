@@ -1,0 +1,13 @@
+package com.kh.mybatis.member.model.vo;
+
+public class UpdatePasswordDto {
+	private String userPwd;
+	private String newPassword;
+	private String userId;
+	
+	public UpdatePasswordDto(String userPwd, String newPassword, String userId) {
+		this.userPwd = userPwd;
+		this.newPassword = newPassword;
+		this.userId = userId;
+	}
+}

@@ -1,0 +1,19 @@
+package com.kh.mybatis.template;
+
+public class mybatisTemplate {
+	/*
+	 * * 기존 JDBC 템플릿
+	 * public static Connection getConnection() {
+	 * 		// driver.properties 파일을 읽어서
+	 * 		// 해당 DB와 접속된 Connection 객체를 생성 후 반환
+	 * }
+	 * 
+	 * public static void close(JDBC용 객체) {
+	 * 		// 전달받은 객체를 반답(close)
+	 * }
+	 * 
+	 * public static void commit|rollback(Connection 객체) {
+	 * 		// 트랜잭션 처리
+	 * }
+	 */
+}

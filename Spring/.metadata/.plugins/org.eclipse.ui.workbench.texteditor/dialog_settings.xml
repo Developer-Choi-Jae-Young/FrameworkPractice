@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="aspectjweaver"/>
 		<list key="findhistory">
+			<item value="aspectjweaver"/>
 			<item value="&lt;/tr&gt;"/>
 			<item value="writer"/>
 			<item value="board.boardNo"/>
@@ -22,7 +23,6 @@
 			<item value="getReal"/>
 			<item value="name=&quot;&quot;"/>
 			<item value="name=&quot;"/>
-			<item value="수정"/>
 		</list>
 		<list key="replacehistory">
 		</list>

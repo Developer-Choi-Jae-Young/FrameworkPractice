@@ -7,6 +7,9 @@
 <title>Hello Spring</title>
 </head>
 <body>
-
+	Hello Spring
+	
+	<%-- main.jsp로 포워딩 --%>
+	<jsp:forward page="WEB-INF/views/main.jsp"></jsp:forward>
 </body>
 </html>

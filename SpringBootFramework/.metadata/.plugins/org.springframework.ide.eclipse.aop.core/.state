@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="lclinic"/>
+<aop-project name="khEmail"/>
+<aop-project name="myEditor"/>
+<aop-project name="springboot"/>
+</aop-reference-model>

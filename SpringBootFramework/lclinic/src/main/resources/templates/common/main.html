@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://wwww.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KHL</title>
+
+<link rel="stylesheet" href="static/css/common.css" />
+<link rel="stylesheet" href="static/css/spacious.css" />
+<script src="static/js/common.js"></script>
+</head>
+<body>
+	<!-- common/header.html 파일 표시 -->
+	<div th:insert="~{common/header :: //div[@class='radio-inputs']}">
+	</div>
+
+	<div class="outer">
+		<div
+			class="card font-dokdo d-flex flex-justify-content flex-align-items">
+
+			반갑습니다. [[${ session.user.id }]] 님 ^^</div>
+
+		<div class="card p-5" align="center">
+
+			<form class="form" action="add.cs" method="post">
+				<input type="hidden" name="userId" th:value="${session.user.id}">
+				<span class="input-span"> <label for="title" class="label">제목</label>
+					<input type="text" name="title" id="title" />
+				</span> <span class="input-span"> <label for="content" class="label">내용</label>
+					<textarea name="content" id="content"></textarea>
+				</span> <br> <input class="submit" type="submit" value="상담 신청" />
+			</form>
+		</div>
+	</div>
+	<th:block th:if="${ session.alertMsg != null}">
+		<script>
+			alert("[[${ session.alertMsg }]]");
+
+			location.href = '/removeAlertMsg';
+		</script>
+	</th:block>
+</body>
+</html>
